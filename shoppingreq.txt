@@ -1,0 +1,24 @@
+What does this need to do?
+----------------------------
+List things to shop for.
+Provide something clickable.
+**Users need to enter shopping list items (text box)
+**Need way to add and remove items
+**And to check and uncheck them as indication of purchased or unpurchased items
+
+Clean layout
+
+Definition: a shopping cart is a bag or basket on wheels for carrying shopping purchases, in particular one on wheels provided for the use of supermarket customers
+
+Shopping cart software:
+Place items in cart
+Calculates a total for the order
+Including shipping and handling charges and associated taxes
+Means by which a customer can read a list of products and mark off the selecitons they want.
+When finished ordering, the customer indicates that they are ready to checkout.
+This is where the total order is placed and confirmed.
+Also customer will enter their shipping and tax information at the checkout.
+
+Typically customer wants a list of what they want to buy, whether they've bought it.  How many they want to buy.
+
+Quantity, whether its been purchased, remove purchase, add purchase, number of items, give priority to allow for certain things that need to be purchased first or second, photo or item

@@ -1,0 +1,13 @@
+What should I do about functionality.
+
+Separate cross 
+add class called selected to element,
+removeClass (remove()).
+add list item in unordered list- and then design list item
+.onclick(use to toggle class)
+.ondblclick(within certain amount of time)
+fadeIn and fadeOut
+
+Questions-let Matt know
+Friday:12:30pm-
+Ben Callahan-sparkbox

@@ -1,0 +1,167 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-size:large;
+	font-family:helvetica;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end of reset*/
+body{
+	background:url(../images/checkoutcounter.jpg) no-repeat;
+	background-size:cover;
+}
+.icon{
+	position:absolute;
+	height: 8em;
+	width: 8em;
+	left:3em;
+	top:20em;
+
+	background:url(../images/qrcode.png);
+	background-size:cover;
+}
+.content{
+	position:relative;
+	margin:0 auto;
+	position:relative;
+	margin-top:3em;
+	margin-bottom:3em;
+	background:white;
+	height:70em;
+	width:65em;
+	padding-top:1.5em;
+	padding-bottom:1.5em;
+}
+.title{
+	position:relative;
+	margin:0 auto;
+	margin-top:1.5em;
+	background:url(../images/barcode.jpg) no-repeat;
+	background-size:cover;
+	width:100%;
+	height:5em;
+	border-radius:2px;
+	outline:1px solid red;
+	padding-top:1.5em;
+	font-size:2em;
+
+}
+.shopping{
+	position:absolute;
+	height:1em;
+	width:8em;
+	outline:1px solid red;
+	color:white;
+	text-align:center;
+	font-size:3em;
+	left:1.5em;
+	top:0.5em;
+
+}
+.subtitle{
+		text-align:center;
+		margin-left:2em;
+}
+.subtitle li{
+		display:inline-block;
+		outline:1px solid red;
+		margin-right:3em;
+		margin-top:3em;
+}
+input{
+	border:none;
+	height:2em;
+	font-size:1.2em;
+}
+button{
+	font-size:1.2em;
+	height:2em;
+	border-radius:5px;
+	background:blue;
+	color:white;
+}
+.itemlist{
+	margin-top:10em;
+}
+.itemlist li{
+		display:block;
+		font-size:2em;
+		outline:1px solid red;
+		margin:0 auto;
+		width:15em;
+		margin-top:1.5em;
+	}
+.itemlist #cartimage {
+		background:url(../images/cart.png) no-repeat;
+
+		/*height:35em;
+		width:45em;
+		margin:-25em 15em;
+		outline:1px solid red;*/
+		height:18em;
+		width:23em;
+		background-image:cover;
+		margin-top:-12em;
+		margin-left:7em;
+
+}
+.copy{
+	display:inline-block;
+	float:left;
+	margin-left:4em;
+	margin-top:2em;
+}
+.social{
+	display:inline-block;
+	float:right;
+	margin-right:4em;
+	margin-top:2em;
+}
+.media{
+	display:inline-block;
+	margin-right:1em;
+}

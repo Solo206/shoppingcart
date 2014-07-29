@@ -1,0 +1,92 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="1415" measuredH="905" mockupW="1242" mockupH="905">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="173" y="0" w="1242" h="881" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10066329</color>
+        <text>Shoppinglist%0Ahttp%3A//ashopping.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Title" x="679" y="125" w="-1" h="-1" measuredW="254" measuredH="41" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <text>Shopping%20Cart</text>
+        <underline>true</underline>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Canvas" x="400" y="74" w="827" h="784" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Canvas" x="499" y="88" w="630" h="114" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.75</backgroundAlpha>
+        <borderStyle>roundedDotted</borderStyle>
+        <color>6710886</color>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::TextInput" x="585" y="229" w="219" h="-1" measuredW="284" measuredH="38" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>Enter%20Shopping%20Items</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Button" x="821" y="229" w="100" h="38" measuredW="56" measuredH="28" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Add</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Button" x="936" y="229" w="107" h="38" measuredW="95" measuredH="28" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Remove</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Button" x="667" y="435" w="371" h="63" measuredW="363" measuredH="28" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Item%201-Click%20to%20put%20x%20mark%20or%20put%20focus</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Button" x="667" y="531" w="371" h="64" measuredW="78" measuredH="28" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Item%202</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Button" x="667" y="630" w="371" h="73" measuredW="78" measuredH="28" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Item%203</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Image" x="499" y="192" w="728" h="713" measuredW="864" measuredH="864" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./cart.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::TextArea" x="585" y="435" w="75" h="63" measuredW="200" measuredH="140" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>60</size>
+        <text>%23</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::TextArea" x="585" y="532" w="75" h="63" measuredW="200" measuredH="140" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>60</size>
+        <text>%23</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::TextArea" x="585" y="635" w="75" h="63" measuredW="200" measuredH="140" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>60</size>
+        <text>%23</text>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::Image" x="211" y="88" w="136" h="114" measuredW="174" measuredH="174" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <src>./qrcode.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
