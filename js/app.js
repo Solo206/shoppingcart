@@ -1,4 +1,9 @@
 $(document).ready(function{
-	var entry=$('.add').parent('.subtitle').find('.inputbox').val(this);
-	$(this).parent('.content').find('.itemlist').prepend('<li>'+entry+'</li>')
-})
+	// var entry=$('.inputbox').val();
+	// $('.add').mousedown( function(){
+	// 	$('button').css('background':'green');
+	// });
+	$('.inputbox').keydown( function(){
+		alert("handler called");
+	});
+});
