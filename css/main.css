@@ -86,7 +86,7 @@ body{
 	border-radius: 10px;
 	border:8px solid lightgray;
 	box-shadow: 5px 5px 3px darkgray;
-	height:45em;
+	height:450px;
 	width:65em;
 	padding-top:1.5em;
 	padding-bottom:1.5em;
@@ -138,16 +138,22 @@ body{
 
 
 .subtitle{
+		position:relative;
 		text-align:center;
-		margin-left:8em;
+		margin-left:20em;
 		margin-top:1em;
+		z-index:102;
 }
 .subtitle li{
 		display:inline-block;
 		/*outline:1px solid red;*/
-		margin-right:1em;
+
 		margin-top:1em;
+		z-index:103;
 }
+.remove{
+	margin-left:1em;
+}	
 input{
 	border:8px solid lightgray;
 	-webkit-border-radius: 10px;
@@ -157,7 +163,9 @@ input{
 	border-radius: 10px;
 	height:1.7em;
 	font-size:1.2em;
-}	
+	margin-right:7em;
+}
+
 button{
 	font-size:1.5em;
 	height:2em;
@@ -173,9 +181,12 @@ button{
 	text-shadow:2px 2px black;
 }
 .itemlist{
-	margin-top:3em;
+	position:relative;
+	margin-top:50px;
 /*	height:3em;*/
-	margin-left:-1em;
+	margin-left:-5em;
+	z-index:101;
+	border:5px 5px blue;
 }
 .itemlist li{
 		display:block;
@@ -194,33 +205,43 @@ button{
 .item{
 	box-shadow:2px 2px 2px steelblue;
 	text-shadow:2px 2px steelblue;
-	margin:20px auto;
+	/*margin: 20px auto;*/
+	margin-left:12em;
+	margin-top:20px;
 	width:10em;
 	font-size:2em;
 }
-.itemlist #cartimage {
+ #cartimage {
+ 		position:relative;
 		background:url(../images/cart1.png) no-repeat;
 
 		height:27em;
 		width:33em;
-		margin-top:-20em;
-		/*outline:1px solid red;*/
+		/*margin-top:em;*/
+		outline:1px solid red;
 		border:none;
 		height:10em
 		width:20em;
 		background-image:cover;
 /*		margin-top:-15em;*/
 		margin-left:20em;
-		z-index:100;
+		margin-top:-20em;
+		z-index:1;
 
 }
+/*.cartedstack{
+	position:relative;
+	height:700px;
+	width:100%;
+	border:5px solid black;
+}*/
 .copy,.social{
 	display:inline-block;
 	float:left;
 	margin-left:2em;
 	
 	text-align:center;
-	margin-top:-1.5em;
+	/*margin-top:-1.5em;*/
 	font-size:1.5em
 }
 .social{
