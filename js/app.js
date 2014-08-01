@@ -10,14 +10,27 @@ $(document).ready(function(){
 		$('body').css({'background':'green'});
 		addItem();
 	});
-	$('.subtitle .add').on('keydown', '.inputbox', function(event){
+	$('.subtitle').on('keyup', '.inputbox', function(event){
 		if(event.which==13){
 			addItem();
 		}
 	});
+	$('.itemlist').find('.item').on('click', function(){
+		$('body').css({'background':'silver'});
+		$('.item').toggleClass('highlight');
+	});
+	// $('.item').on('dblclick'), function(){}
+	$('.subtitle').find('.remove').on('click',function(){
+		$('body').css({'background':'yellow'});
+		removeItem();
+	});
 	function addItem(){
 		$('.itemlist').prepend('<li class="item">'+$('.inputbox').val()+'</li>');
-		$('.content').css({'height':'+50px'});
 		$('.inputbox').val("");
+	}
+	function removeItem(){
+		if ('.highlight'){
+			$(this).remove();
+		}
 	}
 });

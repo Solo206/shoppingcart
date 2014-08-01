@@ -86,10 +86,10 @@ body{
 	border-radius: 10px;
 	border:8px solid lightgray;
 	box-shadow: 5px 5px 3px darkgray;
-	height:450px;
+	height:auto;
 	width:65em;
 	padding-top:1.5em;
-	padding-bottom:1.5em;
+	padding-bottom:2em;
 }
 .title{
 	position:relative;
@@ -140,7 +140,7 @@ body{
 .subtitle{
 		position:relative;
 		text-align:center;
-		margin-left:20em;
+		margin-left:17em;
 		margin-top:1em;
 		z-index:102;
 }
@@ -247,6 +247,7 @@ button{
 .social{
 	float:right;
 	margin-right:0.5em;
+
 }
 .media{
 	display:inline-block;
