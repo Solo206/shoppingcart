@@ -163,6 +163,7 @@ input{
 	height:1.7em;
 	font-size:1.2em;
 	margin-right:7em;
+	box-shadow:2px 2px 2px 2px darkgray;
 }
 
 button{
@@ -214,7 +215,7 @@ button{
 }
  #cartimage {
  		position:relative;
-		background:url(../images/cart1.png) no-repeat;
+		background:url(../images/cart2.png) no-repeat;
 
 		height:27em;
 		width:33em;
