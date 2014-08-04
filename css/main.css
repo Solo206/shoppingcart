@@ -146,7 +146,6 @@ body{
 }
 .subtitle li{
 		display:inline-block;
-		/*outline:1px solid red;*/
 
 		margin-top:1em;
 		z-index:103;
@@ -180,15 +179,15 @@ button{
 	box-shadow:10px 10px 5px black;
 	text-shadow:2px 2px black;
 }
-.itemlist{
+#itemList{
 	position:relative;
 	margin-top:50px;
 /*	height:3em;*/
 	margin-left:-5em;
-	z-index:101;
+/*	z-index:101;*/
 	border:5px 5px blue;
 }
-.itemlist li{
+#itemList li{
 		display:block;
 
 		border:8px solid gray;
@@ -203,6 +202,7 @@ button{
 
 	}
 .item{
+	position:relative;
 	box-shadow:2px 2px 2px steelblue;
 	text-shadow:2px 2px steelblue;
 	/*margin: 20px auto;*/
@@ -210,6 +210,7 @@ button{
 	margin-top:20px;
 	width:10em;
 	font-size:2em;
+	z-index:2;
 }
  #cartimage {
  		position:relative;
@@ -218,7 +219,6 @@ button{
 		height:27em;
 		width:33em;
 		/*margin-top:em;*/
-		outline:1px solid red;
 		border:none;
 		height:10em
 		width:20em;
@@ -226,8 +226,13 @@ button{
 /*		margin-top:-15em;*/
 		margin-left:20em;
 		margin-top:-20em;
-		z-index:1;
+/*		z-index:1;*/
 
+}
+#itemList .highlight{
+	text-decoration:line-through;
+	color:royalblue;
+	text-shadow:2px 2px white;
 }
 /*.cartedstack{
 	position:relative;
@@ -235,24 +240,45 @@ button{
 	width:100%;
 	border:5px solid black;
 }*/
-.copy,.social{
-	display:inline-block;
-	float:left;
-	margin-left:2em;
-	
+.footing{
+	display:block;
 	text-align:center;
 	/*margin-top:-1.5em;*/
 	font-size:1.5em
+	z-index:3;
+	height:20px;
+	width:100%;
 }
-.social{
-	float:right;
-	margin-right:0.5em;
+.footing li{
+	display:inline-block;
+	vertical-align:middle;
+	margin:0 auto;
+}
+.copy{
+	position:absolute;
+	vertical-align:middle;
+	height:25px;
+	width:150px;
+	left:2%;
+	bottom:5%;
+	font-size:1.15em;
+}
+.instructhold{
+	position:absolute;
+	font-size:0.7em;
+	bottom:0;
+	left:40%;
+}
+.socialhold{
+	position:absolute;
+	right:2%;
+	bottom:5%;
 
 }
 .media{
 	display:inline-block;
 	margin-right:0.4em;
-	margin-top:-2em;
+	vertical-align:middle;
 	height:57px;
 	width:57px;
 	opacity:1.0
@@ -269,10 +295,27 @@ button{
 	background:url(../images/icon-set1.png) no-repeat -57px -57px;
 
 }
-video#bgvid{
-	position:fixed; right:0; bottom:0;
-	min-width:100%; min-height:100%;
-	width:100%; height:auto; z-index:-100;
-	background:url(../images/supermarket.png) no-repeat;
-	background-size:cover;
+
+.instructions{
+	position: relative;
+	height:130px;
+	width:500px;
+	margin-left:35%;
+	margin-top:-2.5%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	border:3px dashed grey;
+	background: rgba(234, 236, 234, 0.95);
+}
+.hide{
+	display:none;
+}
+.instructions div{
+	margin-top:5%;
+	margin-left:1%;
+	font-size:1.25em;
+
 }
