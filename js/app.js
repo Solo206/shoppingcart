@@ -6,6 +6,9 @@ $(document).ready(function(){
 
 	// });
 	$('.instructions').hide();
+	$('.subtitle').find('.inputbox').click(function(){
+		$('.inputbox').val("");
+	});
 	//adding an item on click
 	$('.subtitle').find('.add').on('click', function(){
 		// console.log('clicked');
