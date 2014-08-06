@@ -5,10 +5,12 @@ $(document).ready(function(){
 	// 	$('.inputbox').val("");
 
 	// });
+	$('.instructions').hide();
 	//adding an item on click
 	$('.subtitle').find('.add').on('click', function(){
 		// console.log('clicked');
 		addItem();
+		$('.inputbox').val("");
 	});
 
 	//adding an item on enter
@@ -17,6 +19,7 @@ $(document).ready(function(){
 		if(event.keyCode==keyvalue){
 			event.preventDefault();
 			addItem();
+			$('.inputbox').val("");
 		}
 	});
 
@@ -46,18 +49,22 @@ $(document).ready(function(){
 		var itemword=$('.inputbox').val();
 		
 		if(!isEmpty(itemword)){
-		var stackitem='<li class="item">'+itemword+'</li>'
+		var stackitem='<li class="item new">'+itemword+'</li>';
 		$('#itemList').prepend(stackitem);
-		}
-		$(this).addClass("item");
+		$('.new').hide();
+		$('.new').slideDown("slow");
+		};
+		$('.item').removeClass("new");
 		$('.inputbox').val("");
 		$('.inputbox').focus();
 	}
 	//removes highlighted element
 	function removeItem(){
-		$('.highlight').remove();
+		$('.highlight').slideUp("slow", function(){		$('.highlight').remove();});
+
 	}
 	//hides and shows item by adding and removing hide class
 	function toggleItem(){
-		$('.instructions').toggleClass('hide')
+		$('.instructions').slideToggle('slow');
+
 	}

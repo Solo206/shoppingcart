@@ -204,6 +204,7 @@ button{
 	}
 .item{
 	position:relative;
+/*	display:none;*/
 	box-shadow:2px 2px 2px steelblue;
 	text-shadow:2px 2px steelblue;
 	/*margin: 20px auto;*/
@@ -311,8 +312,8 @@ button{
 	border:3px dashed grey;
 	background: rgba(234, 236, 234, 0.95);
 }
-.hide{
-	display:none;
+.instructions{
+	display:block;
 }
 .instructions div{
 	margin-top:5%;
