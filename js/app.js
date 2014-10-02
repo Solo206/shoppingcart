@@ -24,6 +24,10 @@ $(document).ready(function(){
 			addItem();
 			$('.inputbox').val("");
 		}
+		else if(event.keycode==32){
+			event.preventDefault();
+			$('.inputbox').val("");
+		}
 	});
 
 //	highlight item on click and strikethrough text

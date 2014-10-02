@@ -165,7 +165,8 @@ input{
 	border-radius: 10px;
 	height:1.7em;
 	font-size:1.2em;
-	margin-right:7em;
+	margin-right:5em;
+	margin-left:3em;
 	box-shadow:2px 2px 2px 2px darkgray;
 }
 
@@ -203,6 +204,8 @@ button{
 		padding:5px;
 		background:silver;
 		color:white;
+		left:1em;
+		text-align:center;
 
 	}
 .item{
@@ -229,7 +232,7 @@ button{
 		width:20em;
 		background-image:cover;
 /*		margin-top:-15em;*/
-		margin-left:20em;
+		margin-left:23em;
 		margin-top:-20em;
 /*		z-index:1;*/
 
@@ -271,8 +274,8 @@ button{
 .instructhold{
 	position:absolute;
 	font-size:0.7em;
-	bottom:0;
-	left:40%;
+	bottom:5%;
+	left:45%;
 }
 .socialhold{
 	position:absolute;
@@ -305,7 +308,7 @@ button{
 	position: relative;
 	height:130px;
 	width:500px;
-	margin-left:35%;
+	margin-left:37%;
 	margin-top:-2.5%;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
